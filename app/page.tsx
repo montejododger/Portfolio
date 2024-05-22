@@ -1,11 +1,9 @@
-import Image from "next/image";
-
 export default function Home() {
-  return (
-  <main className="relative bg-black">
-    <div>
-      <h1 className="">Hello Portfolio</h1>
-    </div>
-  </main>
-  );
+    return (
+        <main className='min-w-fulls flex flex-col items-center  justify-center p-20'>
+            <div className=''>
+                <h1 className='text-6xl font-bold underline'>Hello World</h1>
+            </div>
+        </main>
+    );
 }
